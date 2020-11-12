@@ -8,6 +8,9 @@ Twitch recently released an update about the current DMCA situation. If Twitch i
 
 ## How to use
 
+1. Get your credentials
+- Log into https://lesh.me/vodrescue.html
+
 Currently I dont have any plan LuL
 
 ## Licenses
