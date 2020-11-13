@@ -13,7 +13,12 @@ with open('login.json') as json_file:
     for p in data['twitch']:
         CLIENT_ID = p['client_id']
         OAUTH = p['oauth']
-    HEADER = {'Client-Id': CLIENT_ID, 'Authorization': 'Bearer ' + OAUTH}
+    if OAUTH == "":
+        print("Get your oauth token here: https://lesh.me/vodrescue.html ")
+        input("Press a key to exit the programm")
+        exit()
+    else:
+        HEADER = {'Client-Id': CLIENT_ID, 'Authorization': 'Bearer ' + OAUTH}
     print(CLIENT_ID)
     print(OAUTH)
 
