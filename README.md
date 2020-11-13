@@ -9,9 +9,11 @@ Twitch recently released an update about the current DMCA situation. If Twitch i
 ## How to use
 
 1. Get your credentials
-Log into https://lesh.me/vodrescue.html and click "Get oAuth"
+
+Log into <https://lesh.me/vodrescue.html> and click "Get oAuth"
 
 2. Paste your credentials
+
 Open the template `login.json` file and paste in your credentials
 
 ## Licenses
